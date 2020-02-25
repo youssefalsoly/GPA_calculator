@@ -1,4 +1,4 @@
-# this code is NOT fool proof (too lazy to even try), enter the inputs carefully
+# this code is NOT foolproof (too lazy to even try), enter the inputs carefully
 # also, it's not commented, why? cause I -as I mentioned before- am too lazy
 
 def gpa_calc (grades_list, subject_hours, num_of_subs, total_hours, max_grade=100):
