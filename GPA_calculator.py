@@ -24,9 +24,26 @@ grades =[int(i) for i in grades.split(" ")]
 
 credits = input("\nenter each subject credit hours seperated by spaces\n")
 credits = [int(i) for i in credits.split(" ")]
-print('your GPA is: %.4f' %gpa_calc(grades, credits, number_of_subjects, total_hours, total_grade))
+print('your GPA is: %.3f' %gpa_calc(grades, credits, number_of_subjects, total_hours, total_grade))
 
 '''
-phy math elec CS eng ob ba
-3 3 3 3 2 2 2
+example on how the inputs should look like
+
+>>enter how many SUBJECTS you toke
+	6
+	
+>>enter how many HOURS you toke
+	15
+	
+>>enter the total grade (the default is 100 marks)
+	100
+
+>>enter your grades seperated by spaces
+	100 100 100 100 100 100
+	
+>>enter each subject credit hours seperated by spaces
+	3 3 3 2 2 2
+	
+>>your GPA is: 4.000
+
 '''
